@@ -6,7 +6,6 @@ languageCode = "en"
 timeZone = "America/Phoenix"
 timeout = "120s"
 title = "Gallery"
-publishDir = "docs"
 
 [params]
   defaultTheme = "dark"
