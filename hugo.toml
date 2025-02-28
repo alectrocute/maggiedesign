@@ -5,7 +5,7 @@ enableRobotsTXT = true
 languageCode = "en"
 timeZone = "America/Phoenix"
 timeout = "120s"
-title = "Portfolio"
+title = "MAGGIE LEE"
 baseURL = ""
 
 [security]

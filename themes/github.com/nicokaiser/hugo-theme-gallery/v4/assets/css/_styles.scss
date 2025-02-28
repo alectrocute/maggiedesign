@@ -134,7 +134,6 @@ hgroup {
   }
 
   p {
-    color: var(--text-2);
     text-wrap: balance;
   }
 
@@ -283,8 +282,7 @@ section.gallery {
   & > img,
   & figure > img {
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    border-radius: 1rem;
-    aspect-ratio: 3/2;
+    aspect-ratio: 1/1;
     width: 100%;
     overflow: hidden;
     object-fit: cover;
