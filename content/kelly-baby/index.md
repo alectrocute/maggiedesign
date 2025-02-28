@@ -10,6 +10,11 @@ params:
 ---
 
 {{< rawhtml >}}
+<style>
+  .gallery-item {
+    display: none;
+  }
+  </style>
 <div style="margin-top: -300px">
 <img src="/images/remote-thumbnails/kelly1.png" />
 <img src="/images/remote-thumbnails/kelly2.png" />

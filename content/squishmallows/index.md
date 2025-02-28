@@ -11,8 +11,13 @@ params:
 
 
 {{< rawhtml >}}
-<div style="margin-top: -300px">
-<img src="/images/remote-thumbnails/kelly1.png" />
-<img src="/images/remote-thumbnails/kelly2.png" />
+<style>
+  .gallery-item {
+    display: none;
+  }
+  </style>
+<div style="margin-top: -300px; z-index: 99999">
+<img src="/images/remote-thumbnails/squish1.png" />
+<img src="/images/remote-thumbnails/squish2.png" />
 </div>
 {{< /rawhtml >}}
