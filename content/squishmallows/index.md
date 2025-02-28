@@ -8,3 +8,11 @@ params:
   theme: light
   remoteThumbnail: images/remote-thumbnails/squish.gif
 ---
+
+
+{{< rawhtml >}}
+<div style="margin-top: -300px">
+<img src="/images/remote-thumbnails/kelly1.png" />
+<img src="/images/remote-thumbnails/kelly2.png" />
+</div>
+{{< /rawhtml >}}
