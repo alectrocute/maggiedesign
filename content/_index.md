@@ -1,5 +1,5 @@
 ---
-description: An example site for hugo-theme-gallery. Images from Unsplash.
+description: Test
 #lastmod: 2023-07-05
 title: Hugo Gallery
 resources:
