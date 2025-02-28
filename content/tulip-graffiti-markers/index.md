@@ -1,6 +1,6 @@
 ---
 menus: "main"
-title: Tulip Graffiti Makers
+title: Tulip Graffiti Markers
 description: "Packaging for Tulip's Graffiti Bullet Tip Fabric Markers. The collection includes three color ways plus a large clamshell and was inspired by street art and urban murals."
 weight: -92
 categories: ["packaging"]

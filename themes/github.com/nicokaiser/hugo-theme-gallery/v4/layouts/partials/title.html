@@ -1,6 +1,6 @@
 {{ if .Title }}
   <hgroup>
-    <h1>{{ .Title }}</h1>
+    <p class="title">{{ .Title }}</p>
     {{ with .Params.Description }}
       <p>{{ . | markdownify }}</p>
     {{ end }}
