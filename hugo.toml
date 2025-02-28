@@ -1,9 +1,9 @@
-copyright = "© Your Name"
+copyright = "© 2025 MAGGIE LEE"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 languageCode = "en"
-timeZone = "Europe/Berlin"
+timeZone = "America/Phoenix"
 timeout = "120s"
 title = "Gallery"
 publishDir = "docs"
@@ -11,7 +11,7 @@ publishDir = "docs"
 [params]
   defaultTheme = "dark"
   description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  title = "MAGGIE LEE"
   [params.author]
     email = "user@example.com"
     name = "Your Name"
