@@ -8,7 +8,7 @@ timeout = "120s"
 title = "Gallery"
 
 [params]
-  defaultTheme = "dark"
+  defaultTheme = "light"
   description = "Example site for hugo-theme-gallery"
   title = "MAGGIE LEE"
   [params.author]
