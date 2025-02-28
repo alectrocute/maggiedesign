@@ -1,0 +1,10 @@
+{
+ "compilerOptions": {
+  "baseUrl": ".",
+  "paths": {
+   "*": [
+    "../themes/github.com/nicokaiser/hugo-theme-gallery/v4/assets/*"
+   ]
+  }
+ }
+}
