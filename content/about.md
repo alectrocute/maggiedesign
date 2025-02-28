@@ -4,6 +4,6 @@ rss_ignore: true
 title: About
 menu:
   main:
-    weight: 90
+    weight: 0
 ---
 

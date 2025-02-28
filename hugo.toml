@@ -5,8 +5,11 @@ enableRobotsTXT = true
 languageCode = "en"
 timeZone = "America/Phoenix"
 timeout = "120s"
-title = "Gallery"
+title = "Portfolio"
 baseURL = ""
+
+[security]
+  enableInlineShortcodes = true
 
 [params]
   defaultTheme = "light"
@@ -16,15 +19,7 @@ baseURL = ""
     email = "me@maggie.design"
     name = "Maggie Lee"
   [params.socialIcons]
-    #facebook = "https://www.facebook.com/"
-    #instagram = "https://www.instagram.com/"
-    #github = "https://github.com/nicokaiser/hugo-theme-gallery/"
-    #youtube = "https://www.youtube.com/"
     email = "mailto:me@maggie.design"
-    #website = "https://example.com"
-    #mastodon = "https://example.com"
-    #pixelfed = "https://example.com"
-    #mixcloud = "https://mixcloud.com"
   [params.gallery]
     boxSpacing = 10
     targetRowHeight = 288
@@ -45,12 +40,11 @@ baseURL = ""
 
 [module]
   [module.hugoVersion]
-    min = "0.121.2"
+    min = "0.140.0"
   [[module.imports]]
     path = "github.com/nicokaiser/hugo-theme-gallery/v4"
 
 [menu]
-
 
 [services]
   [services.rss]

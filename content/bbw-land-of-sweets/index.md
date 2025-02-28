@@ -6,4 +6,5 @@ weight: 2
 categories: ["packaging"]
 params:
   theme: light
+  remoteThumbnail: images/remote-thumbnails/land-of-sweets.jpg
 ---

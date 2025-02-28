@@ -2,17 +2,14 @@
 {{ with $gallery }}
   <a class="card" href="{{ .page.RelPermalink }}" title="{{ .page.Title }}">
     <figure style="background-color: {{ .color }}">
+    {{ if .page.Params.remoteThumbnail }}
+      <img width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" src="{{ .page.Params.remoteThumbnail  }}" alt="{{ .page.Title }}" />
+    {{ else }}
       <img class="lazyload" width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" data-src="{{ .thumbnail.RelPermalink }}" alt="{{ .page.Title }}" />
+    {{ end }}
     </figure>
     <div>
       <h2>{{ .page.Title }}</h2>
-      <p>
-        {{ if gt .albumCount 0 }}
-          {{ T "albumCount" (dict "count" (.albumCount | lang.FormatNumber 0) "photoCount" (.imageCount | lang.FormatNumber 0 | lang.Translate "photoCount")) }}
-        {{ else }}
-          {{ T "photoCount" (.imageCount | lang.FormatNumber 0) }}
-        {{ end }}
-      </p>
     </div>
   </a>
 {{ end }}
