@@ -6,7 +6,7 @@ languageCode = "en"
 timeZone = "America/Phoenix"
 timeout = "120s"
 title = "Gallery"
-relativeURLs = true
+baseURL = "https://alectrocute.github.io/maggiedesign"
 
 [params]
   defaultTheme = "light"
