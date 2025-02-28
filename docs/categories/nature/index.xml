@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nature on Gallery</title>
+    <link>//localhost:56231/categories/nature/</link>
+    <description>Recent content in Nature on Gallery</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>user@example.com (Your Name)</managingEditor>
+    <webMaster>user@example.com (Your Name)</webMaster>
+    <copyright>© Your Name</copyright>
+    <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0200</lastBuildDate><atom:link href="//localhost:56231/categories/nature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nature</title>
+      <link>//localhost:56231/nature/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Your Name)</author>
+      <guid>//localhost:56231/nature/</guid><media:content url="//localhost:56231/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu_8d472ab4f029735b.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:56231/nature/azzedine-rouichi-ZS_XuDZmxpM-unsplash_hu_8d472ab4f029735b.jpg&quot; /&gt;
+          &lt;p&gt;Through photography, the beauty of Mother Nature can be frozen in time. This category celebrates the magic of our planet and beyond — from the immensity of the great outdoors, to miraculous moments in your own backyard.&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Cats</title>
+      <link>//localhost:56231/animals/cats/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0200</pubDate><author>user@example.com (Your Name)</author>
+      <guid>//localhost:56231/animals/cats/</guid><media:content url="//localhost:56231/animals/cats/manja-vitolic-gKXKBY-C-Dk-unsplash_hu_3efaffd3d87c24e1.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:56231/animals/cats/manja-vitolic-gKXKBY-C-Dk-unsplash_hu_3efaffd3d87c24e1.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+    <item>
+      <title>Dogs</title>
+      <link>//localhost:56231/animals/dogs/</link>
+      <pubDate>Thu, 12 Jan 2023 00:00:00 +0100</pubDate><author>user@example.com (Your Name)</author>
+      <guid>//localhost:56231/animals/dogs/</guid><media:content url="//localhost:56231/animals/dogs/charlesdeluvio-Mv9hjnEUHR4-unsplash_hu_42053d045bcfa46b.jpg" type="image/jpeg"/>
+        <description>
+          &lt;img src=&quot;//localhost:56231/animals/dogs/charlesdeluvio-Mv9hjnEUHR4-unsplash_hu_42053d045bcfa46b.jpg&quot; /&gt;
+          &lt;p&gt;&lt;no value&gt;&lt;/p&gt;
+        </description></item>
+  </channel>
+</rss>
