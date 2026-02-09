@@ -1,4 +1,4 @@
-copyright = "© 2025 MAGGIE LEE"
+copyright = "© 2026 MAGGIE LEE"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
@@ -31,8 +31,6 @@ baseURL = ""
   section = ["HTML"]
 
 [imaging]
-  quality = 75
-  resampleFilter = "CatmullRom"
   [imaging.exif]
     disableDate = false
     disableLatLong = true

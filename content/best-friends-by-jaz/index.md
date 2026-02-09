@@ -8,3 +8,11 @@ params:
   theme: light
   remoteThumbnail: images/remote-thumbnails/best-friends.gif
 ---
+
+{{< rawhtml >}}
+<img src="BestFriends_StyleGuide.png" width="100%" />
+<img src="BestFriends_acetate+hook+with+big+logo+++color+block.png" width="100%" />
+<img src="BestFriends_acetate+hook+with+big+logo++wavy+color+block.png" width="100%" />
+<img src="BestFriends_j+hook+with+chomp+++color+block.png" width="100%" />
+<img src="BestFriends_j+hook+with+wavy+color+block.png" width="100%" />
+{{< /rawhtml >}}

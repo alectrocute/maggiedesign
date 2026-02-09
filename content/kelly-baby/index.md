@@ -5,18 +5,11 @@ title: Kelly Baby
 weight: -100
 categories: ["packaging"]
 params:
-  theme: light
+  theme: dark
   remoteThumbnail: images/remote-thumbnails/kelly-baby.gif
 ---
 
 {{< rawhtml >}}
-<style>
-  .gallery-item {
-    display: none;
-  }
-  </style>
-<div style="margin-top: -300px">
 <img src="/images/remote-thumbnails/kelly1.png" />
 <img src="/images/remote-thumbnails/kelly2.png" />
-</div>
 {{< /rawhtml >}}
