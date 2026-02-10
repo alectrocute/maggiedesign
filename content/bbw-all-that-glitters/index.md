@@ -16,8 +16,8 @@ params:
 <img src="ALL+THAT+GLITTERS-05.png" width="100%" class="lineup" />
 <img src="ALL+THAT+GLITTERS-06.png" width="100%" class="lineup" />
 <img src="ALL+THAT+GLITTERS-07.png" width="100%" class="lineup" />
-<img src="ALL+THAT+GLITTERS-hand+sanis.png" width="100%" class="lineup" />
-<img src="All+That+Glitters+Body+Lotions.jpg" width="100%" class="lineup" />
+<img src="ALL+THAT+GLITTERS-hand+sanis.png" width="100%" />
+<img src="All+That+Glitters+Body+Lotions.jpg" width="100%" />
 <img src="Black+Cherry+Merlot+Shelf+Line+Up.jpg" width="100%" />
 <img src="Fresh+Sparkling+Snow+Little+Black+Party+Dress.jpg" width="100%" />
 <img src="Little+Black+Party+Dress+Body+Cream+Fragrance+Mist.jpg" width="100%" />
