@@ -1,17 +1,24 @@
 ---
 layout: page
 rss_ignore: true
-title: About Maggie Lee
+# title: About Maggie Lee
+theme: dark
 menu:
   main:
     weight: 99999998
 ---
-I'm a Tucson, Arizona based designer with 13 years of experience. I specialize in packaging and branding.
-
-Outside of designing, I’m a hobbyist and maker. I enjoy exercise, roadtrips and scratch cooking!
-
-Alumni of Ringling College of Art + Design since 2014.
-
+{{< rawhtml >}}
+<p class="about-text">
+<span style="font-weight: 600;">Maggie Lee</span>
+<br/><br/>
+I’m a Tucson, Arizona–based designer with 13 years of experience specializing in fragrance and beauty packaging and branding.
+<br/><br/>
+Outside of design, I’m a hands-on maker who enjoys staying active, road trips, and scratch cooking.
+<br/><br/>
+Ringling College of Art + Design alum (2014).
+<br/><br/>
 Freelance opportunities are always welcome.
-
-me@maggie.design
+<br/><br/>
+<a href="mailto:me@maggie.design">me@maggie.design</a>
+</p>
+{{< /rawhtml >}}
