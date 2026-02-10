@@ -5,7 +5,7 @@ title: Tattoo Junkee
 weight: -93
 categories: ["packaging"]
 params:
-  theme: dark
+  theme: light
   remoteThumbnail: images/remote-thumbnails/tattoo-junkee.gif
 ---
 

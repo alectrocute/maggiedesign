@@ -5,14 +5,14 @@ title: Adventure Awaits
 weight: -99
 categories: ["packaging"]
 params:
-  theme: dark
+  theme: light
   remoteThumbnail: images/remote-thumbnails/adventure-awaits.jpg
 ---
 
 {{< rawhtml >}}
 <img src="Tropical+2019+Merchandising.jpg" width="100%" />
+<img src="Adventure+Awaits+Skylines-01.png" width="100%" class="lineup" />
 <img src="Tropical+Scrubs.gif" width="100%" />
-<img src="Adventure+Awaits+Skylines-01.png" width="100%" />
 <img src="Bali+Black+Sands+Body+Cream.jpg" width="100%" />
 <img src="Bali+Black+Sands+Fragrance.jpg" width="100%" />
 <img src="Tropical+2019+Overview.jpg" width="100%" />

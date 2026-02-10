@@ -5,7 +5,7 @@ title: Kelly Baby
 weight: -100
 categories: ["packaging"]
 params:
-  theme: dark
+  theme: light
   remoteThumbnail: images/remote-thumbnails/kelly-baby.gif
 ---
 

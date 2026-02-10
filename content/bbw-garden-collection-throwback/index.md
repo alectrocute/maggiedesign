@@ -10,10 +10,10 @@ params:
 ---
 
 {{< rawhtml >}}
-<img src="Garden+Skylines-01.png" width="100%" />
-<img src="Garden+Skylines-02.png" width="100%" />
-<img src="Garden+Skylines-04.png" width="100%" />
-<img src="image-asset.png" width="100%" />
+<img src="Garden+Skylines-01.png" width="100%" class="lineup" />
+<img src="Garden+Skylines-02.png" width="100%" class="lineup" />
+<img src="Garden+Skylines-04.png" width="100%" class="lineup" />
+<img src="image-asset.png" width="100%" class="lineup" />
 <img src="Garden+Collection+Overview.jpg" width="100%" />
 <img src="Strawberry+Fragrance.jpg" width="100%" />
 <img src="Summer+Sale+Shelfie.jpg" width="100%" />

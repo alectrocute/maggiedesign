@@ -10,8 +10,8 @@ params:
 ---
 
 {{< rawhtml >}}
+<img src="Land+of+Sweets+Fragrance+Mists.jpg" width="100%" class="lineup" />
 <img src="Bath+and+Body+Works+Land+of+Sweets+Overview.jpg" width="100%" />
-<img src="Land+of+Sweets+Fragrance+Mists.jpg" width="100%" />
 <img src="Land+of+Sweets+Line+Up.jpg" width="100%" />
 <img src="Land+of+Sweets+Lip+Gloss.jpg" width="100%" />
 <img src="Land+of+Sweets+Salt+Soaks.jpg" width="100%" />

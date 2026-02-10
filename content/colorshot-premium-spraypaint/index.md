@@ -11,7 +11,7 @@ params:
 ---
 
 {{< rawhtml >}}
-<img src="Row_1_Box_2_All_About_Color-1024x5462.png" width="100%" />
+<img src="Row_1_Box_2_All_About_Color-1024x5462.png" width="100%" class="lineup" />
 <img src="colorshot+gif.gif" width="100%" />
 <img src="0013097_colorshot-used-on-extreme-makeover-home-edition.png" width="100%" />
 <img src="cs19_HomeDepot_Set_10+Size+1000.jpg" width="100%" />

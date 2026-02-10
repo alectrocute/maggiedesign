@@ -5,7 +5,7 @@ title: RCAD Accepted Students Package
 weight: 2
 categories: ["packaging"]
 params:
-  theme: dark
+  theme: light
   remoteThumbnail: images/remote-thumbnails/rcad.jpg
 ---
 

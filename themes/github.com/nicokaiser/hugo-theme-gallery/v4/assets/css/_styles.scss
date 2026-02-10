@@ -180,12 +180,12 @@ hgroup {
 section.galleries {
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  gap: 2rem 1.5rem;
+  gap: 1rem;
   max-width: 1280px;
 
   @media (min-width: 640px) {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    row-gap: 3rem;
+    row-gap: 1rem;
   }
 
   @media (min-width: 1024px) {
@@ -226,8 +226,21 @@ section.gallery {
   }
 
   img {
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .lineup {
+    width: 100vw;
+    max-width: 1920px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   h3 {
