@@ -36,3 +36,9 @@ img {
 html.dark .title-logo {
   filter: invert(1);
 }
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}

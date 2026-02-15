@@ -7,7 +7,6 @@ categories: ["packaging"]
 params:
   theme: light
   remoteThumbnail: images/remote-thumbnails/graffiti.jpg
-
 ---
 
 {{< rawhtml >}}
