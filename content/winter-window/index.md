@@ -6,7 +6,7 @@ weight: -100
 categories: ["packaging"]
 params:
   theme: light
-remoteThumbnail: winter-window/assets/thumb.png
+remoteThumbnail: winter-window/assets/winter.gif
 ---
 
 {{< rawhtml >}}
