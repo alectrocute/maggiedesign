@@ -9,7 +9,7 @@ menu:
 ---
 {{< rawhtml >}}
 <p class="about-text">
-<span style="font-weight: 600;">Maggie Lee</span>
+<span style="font-weight: 600;">About Maggie Lee</span>
 <br/><br/>
 I’m a Tucson, Arizona–based designer with 13 years of experience specializing in fragrance and beauty packaging and branding.
 <br/><br/>

@@ -1,11 +1,11 @@
-copyright = "© 2026 MAGGIE LEE"
+copyright = "© 2026 Maggie Lee"
 defaultContentLanguage = "en"
 disableKinds = ["taxonomy"]
 enableRobotsTXT = true
 languageCode = "en"
 timeZone = "America/Phoenix"
 timeout = "120s"
-title = "MAGGIE LEE"
+title = "Maggie Lee"
 baseURL = ""
 
 [security]
@@ -14,7 +14,7 @@ baseURL = ""
 [params]
   defaultTheme = "light"
   description = ""
-  title = "MAGGIE LEE"
+  title = "Maggie Lee"
   [params.author]
     email = "me@maggie.design"
     name = "Maggie Lee"
