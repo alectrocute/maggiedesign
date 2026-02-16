@@ -6,7 +6,7 @@ weight: -9995
 categories: ["packaging"]
 params:
   theme: light
-  remoteThumbnail: images/remote-thumbnails/old-fashioned-christmas.png
+  remoteThumbnail: images/remote-thumbnails/oldfashioned.webp
 ---
 
 {{< rawhtml >}}
