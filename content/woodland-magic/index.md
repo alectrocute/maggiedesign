@@ -2,7 +2,7 @@
 description: Wander into something magical with Goose Creek's new Woodland Magic Collection. Delicate florals, glowing fireflies, and forest-fresh moments come together in a dreamy lineup inspired by nature’s quiet wonders.
 menus: "main"
 title: "Goose Creek: Woodland Magic Collection"
-weight: -100
+weight: -9998
 categories: ["packaging"]
 params:
   theme: light

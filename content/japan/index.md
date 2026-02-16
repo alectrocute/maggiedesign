@@ -2,7 +2,7 @@
 description: A journey through cherry blossoms, tea houses and mountain mist.
 menus: "main"
 title: "Goose Creek: World Traveler Collection"
-weight: -1000
+weight: -99999
 categories: ["packaging"]
 params:
   theme: light

@@ -2,7 +2,7 @@
 description: Make this holiday season extra special with Goose Creek's popular collection of unique scented Christmas candles.
 menus: "main"
 title: "Goose Creek: Old Fashioned Christmas Collection"
-weight: -100
+weight: -9995
 categories: ["packaging"]
 params:
   theme: light
