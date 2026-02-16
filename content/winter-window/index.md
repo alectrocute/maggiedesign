@@ -2,11 +2,11 @@
 description: Goose Creek's Winter Window collection is a collection of winter-themed products.
 menus: "main"
 title: "Goose Creek: Winter Window Collection"
-weight: -98
+weight: -100
 categories: ["packaging"]
 params:
   theme: light
-remoteThumbnail: winter-window/assets/GC_WinterWindow_SnowballFight_NA_PDP_Lid_2500x2500_v01.webp
+remoteThumbnail: winter-window/assets/thumb.png
 ---
 
 {{< rawhtml >}}
