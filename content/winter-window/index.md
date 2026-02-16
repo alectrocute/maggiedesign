@@ -1,5 +1,4 @@
 ---
-description: Goose Creek's Winter Window collection is a collection of winter-themed products.
 menus: "main"
 title: "Goose Creek: Winter Window Collection"
 weight: -9999
