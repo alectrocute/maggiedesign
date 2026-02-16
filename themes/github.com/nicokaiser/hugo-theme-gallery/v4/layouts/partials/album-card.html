@@ -3,7 +3,7 @@
   <a class="card" href="{{ .page.RelPermalink }}" title="{{ .page.Title }}">
     <figure style="background-color: {{ .color }}">
     {{ if .page.Params.remoteThumbnail }}
-      <img width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" src="{{ .page.Params.remoteThumbnail  }}" alt="{{ .page.Title }}" />
+      <img {{ with .thumbnail }}width="{{ .Width }}" height="{{ .Height }}"{{ end }} src="{{ .page.Params.remoteThumbnail }}" alt="{{ .page.Title }}" />
     {{ else }}
       <img class="lazyload" width="{{ .thumbnail.Width }}" height="{{ .thumbnail.Height }}" data-src="{{ .thumbnail.RelPermalink }}" alt="{{ .page.Title }}" />
     {{ end }}

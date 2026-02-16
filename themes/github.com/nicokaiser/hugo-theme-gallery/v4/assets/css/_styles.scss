@@ -20,12 +20,33 @@ body>header {
   width: 100%;
   min-height: 4rem;
 
+
   @media (min-width: 640px) {
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid rgba(50, 50, 50, 0.05);
   }
 
   ul {
     display: inline-flex;
+  }
+
+  li>a:hover {
+    opacity: 0.8;
+    display: inline-block;
+  }
+
+
+  li>a::after {
+    content: '';
+    width: 0px;
+    height: 0.5px;
+    display: block;
+    background: black;
+    transition: all 200ms ease-in-out;
+  }
+
+  li>a:hover::after {
+    width: 100%;
   }
 
   .navbar {
@@ -55,9 +76,25 @@ body>header {
     }
   }
 
+  .logo-fadein {
+    animation: logofadein 0.5s ease-in-out;
+  }
+
   .logo {
-    width: 180px;
+    width: 85px;
     height: auto;
+  }
+
+  @keyframes logofadein {
+    from {
+      transform: translateY(10px) scale(0.88);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
   }
 
   .btn-square {
@@ -151,7 +188,7 @@ hgroup {
   }
 
   p {
-    text-wrap: balance;
+    text-wrap: pretty;
   }
 
   @media (min-width: 640px) {
@@ -472,14 +509,14 @@ nav.categories {
 }
 
 @media (min-width: 900px) {
-.about-text {
-  font-size: 1.3rem;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 600px;
-}
+  .about-text {
+    font-size: 1.3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+  }
 }
 
 @media (max-height: 800px) {

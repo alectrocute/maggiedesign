@@ -1,15 +1,21 @@
 {{ $gallery := "" }}
 {{ $images := .Resources.ByType "image" }}
-{{ if gt (len $images) 0 }}
-  {{ $index := 0 }}
-  {{ range $i, $image := $images }}
-    {{ if index $image.Params "cover" }}
-      {{ $index = $i }}
+{{ $hasImages := ge (len $images) 1 }}
+{{ $hasRemoteThumbnail := .Params.remoteThumbnail }}
+{{ if or $hasImages $hasRemoteThumbnail }}
+  {{ $color := "transparent" }}
+  {{ $thumbnail := "" }}
+  {{ if $hasImages }}
+    {{ $index := 0 }}
+    {{ range $i, $image := $images }}
+      {{ if index $image.Params "cover" }}
+        {{ $index = $i }}
+      {{ end }}
     {{ end }}
+    {{ $featured := ($images.GetMatch (.Params.featured_image | default "*feature*")) | default (index $images $index) }}
+    {{ $thumbnail = $featured.Filter (slice images.AutoOrient (images.Process "fit 600x600")) }}
+    {{ $color = index $thumbnail.Colors 0 | default "transparent" }}
   {{ end }}
-  {{ $featured := ($images.GetMatch (.Params.featured_image | default "*feature*")) | default (index $images $index) }}
-  {{ $thumbnail := $featured.Filter (slice images.AutoOrient (images.Process "fit 600x600")) }}
-  {{ $color := index $thumbnail.Colors 0 | default "transparent" }}
   {{ $imageCount := 0 }}
   {{ $albumCount := 0 }}
   {{ if .IsPage }}
@@ -21,7 +27,7 @@
     {{ end }}
   {{ end }}
   {{ $gallery = dict
-    "page" $
+    "page" .
     "images" $images
     "thumbnail" $thumbnail
     "color" $color
