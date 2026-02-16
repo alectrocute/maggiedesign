@@ -2,7 +2,7 @@
 description: A glitzy and celebratory collection for Bath and Body Works Holiday 2019.
 menus: "main"
 title: All That Glitters
-weight: -9995
+weight: -9994
 categories: ["packaging"]
 params:
   theme: light
