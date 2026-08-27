@@ -10,6 +10,8 @@ params:
 ---
 
 {{< rawhtml >}}
+<img src="/images/remote-thumbnails/odor-elimination.webp" width="100%" />
+
 <h3>3-Wick Candles</h3>
 <p>The flagship 14.5 oz jar. Three wicks mean an even, edge-to-edge burn and a strong, room-filling scent throw — built on premium wax and fragrance oils for a clean burn, with odor-eliminating technology baked into every scent in the line.</p>
 <div class="product-grid lineup">

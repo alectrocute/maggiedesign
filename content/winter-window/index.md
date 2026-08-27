@@ -1,7 +1,7 @@
 ---
 menus: "main"
 title: "Goose Creek: Winter Window Collection"
-weight: -9999
+weight: -9998
 categories: ["packaging"]
 params:
   theme: light
