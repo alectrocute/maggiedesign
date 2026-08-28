@@ -15,14 +15,20 @@ params:
   <img src="3-wick-cliffside-sea-spray-front.webp" />
   <img src="3-wick-cool-rain-drops-front.webp" />
   <img src="3-wick-cotton-vanilla-breeze-front.webp" />
+</div>
+<div class="product-grid lineup">
   <img src="3-wick-dragonfruit-splash-front.webp" />
   <img src="3-wick-drenched-coconut-front.webp" />
   <img src="3-wick-eucalyptus-mist-front.webp" />
   <img src="3-wick-island-bliss-front.webp" />
+</div>
+<div class="product-grid lineup">
   <img src="3-wick-lavender-vanilla-front.webp" />
   <img src="3-wick-lost-at-sea-front.webp" />
   <img src="3-wick-sugared-lemon-front.webp" />
   <img src="3-wick-teakwood-front.webp" />
+</div>
+<div class="product-grid lineup">
   <img src="3-wick-warm-welcome-front.webp" />
   <img src="3-wick-watermelon-lemonade-front.webp" />
   <img src="3-wick-wild-green-apple-front.webp" />
@@ -48,10 +54,14 @@ params:
   <img src="single-wick-sugared-lemon-front.webp" />
   <img src="single-wick-lavender-vanilla-front.webp" />
   <img src="single-wick-teakwood-front.webp" />
+</div>
+<div class="product-grid lineup">
   <img src="single-wick-island-bliss-front.webp" />
   <img src="single-wick-eucalyptus-mist-front.webp" />
   <img src="single-wick-drenched-coconut-front.webp" />
   <img src="single-wick-dragonfruit-splash-front.webp" />
+</div>
+<div class="product-grid lineup">
   <img src="single-wick-cotton-vanilla-breeze-front.webp" />
   <img src="single-wick-chilly-rain-showers-front.webp" />
   <img src="single-wick-cliffside-sea-spray-front.webp" />

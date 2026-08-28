@@ -33,3 +33,17 @@ body > header {
   margin-bottom: 0;
 }
 */
+
+/* Product grids: equal columns on desktop, never distort images */
+.product-grid img {
+  height: auto;
+  object-fit: contain;
+}
+
+@media (min-width: 641px) {
+  .product-grid img {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+}
+
