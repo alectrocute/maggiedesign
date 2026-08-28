@@ -2,7 +2,7 @@
 description: The front of shop story for Bath and Body Works Fall 2019.
 menus: "main"
 title: Fall Traditions
-weight: -9994
+weight: -130
 categories: ["packaging"]
 params:
   theme: light

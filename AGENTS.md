@@ -24,7 +24,11 @@ Portfolio site for Maggie Lee, built with Hugo and the `hugo-theme-gallery` v4 t
   description: "<one-liner for the homepage card>"
   menus: "main"
   title: "Goose Creek: <Name> Collection"
-  weight: -1000N        # newer collections get more negative; they sort first
+  weight: -10N          # multiples of -10 in homepage order; the homepage sorts
+                        # ascending, so the first card is the most negative
+                        # (-210 = first). New pages take the next more-negative
+                        # value (-220 currently), or slot between two existing
+                        # steps to insert mid-list
   categories: ["packaging"]
   params:
     theme: light

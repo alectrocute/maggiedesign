@@ -3,7 +3,7 @@ description: "Colorshot is better for you and our planet as it is formulated wit
 
 menus: "main"
 title: Colorshot Premium Spraypaint
-weight: -94
+weight: -70
 categories: ["packaging"]
 params:
   theme: light

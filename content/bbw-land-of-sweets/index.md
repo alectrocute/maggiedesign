@@ -2,7 +2,7 @@
 description: One of the headliner collections for Bath and Body Works Holiday 2019.
 menus: "main"
 title: Land of Sweets
-weight: -9993
+weight: -110
 categories: ["packaging"]
 params:
   theme: light

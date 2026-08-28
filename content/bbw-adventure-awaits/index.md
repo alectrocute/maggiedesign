@@ -2,7 +2,7 @@
 description: The tropical front of shop story for Bath and Body Works Spring 2019.
 menus: "main"
 title: Adventure Awaits
-weight: -9993
+weight: -120
 categories: ["packaging"]
 params:
   theme: light

@@ -2,7 +2,7 @@
 description: "Fall 2026. A wilderness adventure collection for Goose Creek — six 3-wick candles pairing plaid wildlife artwork with woodsy, gourmand fragrances."
 menus: "main"
 title: "Goose Creek: Wilderness Collection"
-weight: -1999999
+weight: -190
 categories: ["packaging"]
 params:
   theme: light

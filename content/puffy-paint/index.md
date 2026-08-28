@@ -3,7 +3,7 @@ description: "Rebrand and packaging concepts for Tulip's Puffy Paint. Puffy Pain
 The collection includes single bottles and kits in glow in the dark, neon, super puffy, matte, glossy and glitter formulas."
 menus: "main"
 title: Puffy Paint
-weight: 2
+weight: -20
 categories: ["packaging"]
 params:
   theme: light

@@ -2,7 +2,7 @@
 description: "Spring 2026. A functional, evergreen collection for Goose Creek featuring advanced odor-eliminating technology across 3-wick and single-wick candles, room sprays, wax melts and plug-in refills."
 menus: "main"
 title: "Goose Creek: Odor Eliminating Collection"
-weight: -9998
+weight: -180
 categories: ["packaging"]
 params:
   theme: light
