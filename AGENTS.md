@@ -42,14 +42,21 @@ Portfolio site for Maggie Lee, built with Hugo and the `hugo-theme-gallery` v4 t
 - All body markup goes inside `{{< rawhtml >}} ... {{< /rawhtml >}}`.
 - Page body pattern (see `content/odor-elimination/index.md` and
   `content/wilderness-collection/index.md` as canonical examples):
-  - Hero: `<img src="/images/remote-thumbnails/<slug>.webp" width="100%" />`
-  - Sections: `<h3>Section Name</h3>` + a short `<p>` blurb (1–3 sentences, grounded in
-    real copy from the brand's website — fetch it, don't invent specs like sizes/burn
-    times) + image grids.
-  - Grids: `<div class="product-grid lineup">` with 2 `<img>` per row for front/angle
-    pairs, or 3 per row for single-image products. `.lineup` makes the row full-bleed
-    (max 1280px); `.product-grid` collapses to a column on mobile. A lone image at
-    `width="100%"` with `class="lineup"` is the full-width variant.
+  - No hero image and no on-page text: the page starts directly with the first image
+    grid. The front-matter `description` is the only copy. Never repeat the animated
+    homepage thumbnail at the top of the page.
+  - On-page prose is forbidden on collection pages (no h3/p blurbs). If the designer
+    supplies real brand copy worth keeping, it belongs in the front-matter description.
+  - Descriptions use clean grammar: no em dashes (use commas, colons or full stops
+    instead).
+  - Candle grids (`-front` = lid-off straight-on, `-angle` = lid-on): all non-lid
+    `-front` images share ONE `<div class="product-grid lineup">` row at the top; the
+    lid-on `-angle` shots are stacked vertically below, one per full-width row
+    (`width="100%" class="lineup"`). Never mix lid-on and lid-off in the same row.
+  - Single-image products (room sprays, wax melts, etc.): `<div class="product-grid
+    lineup">` with 3 `<img>` per row. `.lineup` makes the row full-bleed (max 1280px);
+    `.product-grid` collapses to a column on mobile. A lone image at `width="100%"`
+    with `class="lineup"` is the full-width variant.
   - Image `src`s are relative to the bundle folder; reference static assets with an
     absolute path (`/images/...`).
   - When the designer provides group/composite shots (`group-*.png`), use them as
@@ -114,5 +121,5 @@ ffmpeg's native webp decoder also cannot read animated webp — use Pillow.
 ## Pre-flight checklists
 
 New collection page: stage assets → clean names → thumbnail webp → index.md (front
-matter + hero + h3 sections + blurbs + grids) → verify all referenced files exist →
+matter + grids) → verify all referenced files exist →
 `hugo --gc` → confirm the homepage card picks up `remoteThumbnail`.
