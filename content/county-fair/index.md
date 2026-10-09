@@ -2,7 +2,7 @@
 description: "Summer 2026. A county fair collection for Goose Creek: eight 3-wick candles and a wax melt pairing vintage hand-illustrated ticket artwork with fruity fair-food fragrances."
 menus: "main"
 title: "Goose Creek: County Fair Collection"
-weight: -230
+weight: -200
 categories: ["packaging"]
 params:
   theme: light

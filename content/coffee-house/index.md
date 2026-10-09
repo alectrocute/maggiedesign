@@ -2,7 +2,7 @@
 description: "Fall 2026. A cozy café-inspired collection for Goose Creek: seven 3-wick candles dressed in vintage coffee-house tile artwork, plus a whipped caramel espresso wax melt."
 menus: "main"
 title: "Goose Creek: Coffee House Collection"
-weight: -210
+weight: -220
 categories: ["packaging"]
 params:
   theme: light
